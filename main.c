@@ -1,7 +1,9 @@
 #include <stdio.h>
-
-int main(int argc, char const *argv[])
+/* count characters in input; 1st version */
+main()
 {
-    printf("HEll");
-    return 0;
+    long nc = 0;
+    while (getchar() != EOF)
+        ++nc;
+    printf("%ld\n", nc);
 }
