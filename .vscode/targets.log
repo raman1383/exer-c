@@ -5,9 +5,8 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Sat Jul 09 22:43:35 2022
+# Make data base, printed on Sun Jul 10 13:48:12 2022
 
 # Variables
 
@@ -258,7 +257,7 @@ ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
 # makefile (from 'Makefile', line 10)
-CXXFLAGS := -std=c++17 -Wall -Wextra -g
+CXXFLAGS := -std=c++20 -Wall -Wextra -g
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
@@ -287,7 +286,7 @@ VCPKG_DEFAULT_TRIPLET = x64-windows
 # Directories
 
 # src: could not be stat'd.
-# . (key c:/Users/ALL/PLs/C/exer, mtime 1657372925): 7 files, no impossibilities.
+# . (key c:/Users/ALL/PLs/C/exer, mtime 1657423010): 7 files, no impossibilities.
 
 # 7 files, no impossibilities in 2 directories.
 
@@ -307,7 +306,7 @@ main.exe:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-04 13:17:26
+#  Last modified 2022-07-10 07:45:48
 #  File has been updated.
 #  Successfully updated.
 
@@ -405,6 +404,6 @@ run: all
 # strcache performance: lookups = 34 / hit rate = 52%
 # hash-table stats:
 # Load=16/8192=0%, Rehash=0, Collisions=0/34=0%
-# Finished Make data base on Sat Jul 09 22:43:35 2022
+# Finished Make data base on Sun Jul 10 13:48:12 2022
 
  

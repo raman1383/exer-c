@@ -1,20 +1,14 @@
 #include <stdio.h>
-void swap(int *px, int *py);
-int main()
-{
-    int x = 11;
-    int *px = &x;
-    int y = 99;
-    int *py = &y;
 
-    swap(py, px);
-    printf("x:%d  ,  y:%d", *px, *py);
-}
-
-void swap(int *px, int *py)
+int main(void)
 {
-    int temp;
-    temp = *px;
-    *px = *py;
-    *py = temp;
+    int number_to_test, remainder;
+    printf("Enter your number to be tested.: ");
+    scanf("%i", &number_to_test);
+    remainder = number_to_test % 2;
+    if (remainder == 0)
+        printf("The number is even.\n");
+    if (remainder != 0)
+        printf("The number is odd.\n");
+    return 0;
 }
