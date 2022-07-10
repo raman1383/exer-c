@@ -2,13 +2,12 @@
 
 int main(void)
 {
-    int number_to_test, remainder;
-    printf("Enter your number to be tested.: ");
-    scanf("%i", &number_to_test);
-    remainder = number_to_test % 2;
-    if (remainder == 0)
-        printf("The number is even.\n");
-    if (remainder != 0)
-        printf("The number is odd.\n");
+    int Fibonacci[15], i;
+    Fibonacci[0] = 0; // by definition
+    Fibonacci[1] = 1; // ditto
+    for (i = 2; i < 15; ++i)
+        Fibonacci[i] = Fibonacci[i - 2] + Fibonacci[i - 1];
+    for (i = 0; i < 15; ++i)
+        printf("%i\n", Fibonacci[i]);
     return 0;
 }
