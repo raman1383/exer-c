@@ -6,7 +6,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jul 10 13:48:12 2022
+# Make data base, printed on Mon Jul 11 13:53:37 2022
 
 # Variables
 
@@ -45,7 +45,7 @@ GOPATH = C:\Users\ALL\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13428_PDEEHRXPKVNCCSAW
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2908_EHUQWIHDOSSLBTWH
 # environment
 STUDIO_VM_OPTIONS = C:\ja-netfilter\vmoptions\studio.vmoptions
 # environment
@@ -101,7 +101,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 13428
+VSCODE_PID = 2908
 # environment
 CLION = C:\Program Files\JetBrains\CLion 2022.1.2\bin;
 # automatic
@@ -217,7 +217,8 @@ MAKE_VERSION := 4.3
 # makefile (from 'Makefile', line 34)
 FIXPATH = $(subst /,\,$1)
 # environment
-PROGRAMFILES(X86) = C:\Program Files (x86)
+PROGRAMFILES(X86) = C:\Program Files (x 
+86)
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-1E4BJE1
 # environment
@@ -286,7 +287,7 @@ VCPKG_DEFAULT_TRIPLET = x64-windows
 # Directories
 
 # src: could not be stat'd.
-# . (key c:/Users/ALL/PLs/C/exer, mtime 1657423010): 7 files, no impossibilities.
+# . (key c:/Users/ALL/PLs/C/exer, mtime 1657456597): 7 files, no impossibilities.
 
 # 7 files, no impossibilities in 2 directories.
 
@@ -404,6 +405,6 @@ run: all
 # strcache performance: lookups = 34 / hit rate = 52%
 # hash-table stats:
 # Load=16/8192=0%, Rehash=0, Collisions=0/34=0%
-# Finished Make data base on Sun Jul 10 13:48:12 2022
+# Finished Make data base on Mon Jul 11 13:53:37 2022
 
  
