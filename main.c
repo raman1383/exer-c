@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 #define merge(a, b) a##b
 #define get(a) #a
 #define PRINT(i, limit)                  \
@@ -40,6 +41,16 @@ int main()
     // printf("%d", LIMIT); // err
 
     char str2[] = "Raman Sh";
+
+    int(*dayTab)[13];
+    void (*f[10])(int, int);
+    void (*bsd_signal(int sig, void (*func)(int)))(int);
+
+    bool x3 = true;
+
+    char a2 = 30, b2 = 40, c2 = 10;
+    char d2 = (a2 * b2) / c2;
+    printf("%d ", d2);
 
     return 0;
 }
