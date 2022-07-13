@@ -7,6 +7,7 @@
         printf("%d -> GeeksQuiz \n", i); \
         i++;                             \
     }
+#define square(x) (x * x)
 
 int main()
 {
@@ -14,5 +15,7 @@ int main()
     printf("%s \n", get(GeeksQuiz)); // GeeksQuiz
     int i = 0;
     PRINT(i, 3);
+    int x = 36 / square(6);
+    printf("%d", x);
     return 0;
 }
