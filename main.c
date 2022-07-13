@@ -9,6 +9,7 @@
     }
 #define square(x) (x * x)
 static inline int squareV2(int x) { return x * x; }
+#define LIMIT 100
 
 int main()
 {
@@ -33,5 +34,12 @@ int main()
     printf("Current Date :%s\n", __DATE__);
     printf("Current Time :%s\n", __TIME__);
     printf("Line Number :%d\n", __LINE__);
+
+    printf("%d \n", LIMIT);
+#undef LIMIT
+    // printf("%d", LIMIT); // err
+
+    char str2[] = "Raman Sh";
+
     return 0;
 }
