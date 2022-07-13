@@ -52,5 +52,8 @@ int main()
     char d2 = (a2 * b2) / c2;
     printf("%d ", d2);
 
+    size_t x4 = 5;
+    printf("\n %c \n ", x4);
+
     return 0;
 }
