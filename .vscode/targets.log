@@ -6,7 +6,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jul 11 13:53:37 2022
+# Make data base, printed on Wed Jul 13 20:26:23 2022
 
 # Variables
 
@@ -45,7 +45,7 @@ GOPATH = C:\Users\ALL\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2908_EHUQWIHDOSSLBTWH
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10888_RFRKWVOQCCBRYIIL
 # environment
 STUDIO_VM_OPTIONS = C:\ja-netfilter\vmoptions\studio.vmoptions
 # environment
@@ -101,7 +101,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 2908
+VSCODE_PID = 10888
 # environment
 CLION = C:\Program Files\JetBrains\CLion 2022.1.2\bin;
 # automatic
@@ -149,7 +149,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Users\ALL\vcpkg\installed\x64-windows\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\ALL\.cargo\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Calibre2\;C:\Program Files\Git\cmd;C:\Python310;C:\Program Files\Vim\vim82;C:\Program Files\Go\bin;C:\mingw64\bin;C:\Program Files\CMake\bin;C:\Users\ALL\vcpkg\scripts;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\ALL\AppData\Roaming\Python\Python310\Scripts;C:\Users\ALL\vcpkg\downloads\tools\bazel\4.2.2-windows;C:\msys64\usr\bin;C:\Program Files\Conan\conan;C:\Users\ALL\.cargo\bin;C:\Users\ALL\AppData\Roaming\npm;C:\Users\ALL\AppData\Local\Programs\Microsoft VS Code\bin;C:\tools\neovim\nvim-win64\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.1\bin;;C:\Users\ALL\go\bin;C:\Program Files\Go\bin;C:\vcpkg;C:\MinGW\bin;C:\msys64\mingw64\bin;;C:\Program Files\JetBrains\CLion 2022.1.2\bin;;C:\Program Files\JetBrains\PyCharm 2022.1.3\bin;
+PATH = C:\Users\ALL\vcpkg\installed\x64-windows\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\ALL\.cargo\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Calibre2\;C:\Program Files\Git\cmd;C:\Python310;C:\Program Files\Vim\vim82;C:\Program Files\Go\bin;C:\mingw64\bin;C:\Program Files\CMake\bin;C:\Users\ALL\vcpkg\scripts;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\ALL\AppData\Roaming\Python\Python310\Scripts;C:\Users\ALL\vcpkg\downloads\tools\bazel\4.2.2-windows;C:\msys64\usr\bin;C:\Program Files\Conan\conan;C:\Users\ALL\.cargo\bin;C:\Users\ALL\AppData\Roaming\npm;C:\Users\ALL\AppData\Local\Programs\Microsoft VS Code\bin;C:\tools\neovim\nvim-win64\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.1\bin;;C:\Users\ALL\go\bin;C:\Program Files\Go\bin;C:\vcpkg;C:\MinGW\bin;C:\msys64\mingw64\bin;;C:\Program Files\JetBrains\CLion 2022.1.2\bin;;C:\Program Files\JetBrains\PyCharm 2022.1.3\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.3\bin;
 # environment
 ZES_ENABLE_SYSMAN = 1
 # environment
@@ -166,6 +166,8 @@ PROMPT = $P$G
 CHOCOLATEYLASTPATHUPDATE = 132969416522017658
 # environment
 WEBIDE_VM_OPTIONS = C:\ja-netfilter\vmoptions\webide.vmoptions
+# environment
+INTELLIJ IDEA = C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.3\bin;
 # makefile (from 'Makefile', line 30)
 MAIN := main.exe
 # environment
@@ -217,8 +219,7 @@ MAKE_VERSION := 4.3
 # makefile (from 'Makefile', line 34)
 FIXPATH = $(subst /,\,$1)
 # environment
-PROGRAMFILES(X86) = C:\Program Files (x 
-86)
+PROGRAMFILES(X86) = C:\Program Files (x86)
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-1E4BJE1
 # environment
@@ -278,7 +279,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
 # environment
 VCPKG_DEFAULT_TRIPLET = x64-windows
 # variable set hash-table stats:
-# Load=133/1024=13%, Rehash=0, Collisions=16/181=9%
+# Load=134/1024=13%, Rehash=0, Collisions=16/182=9%
 
 # Pattern-specific Variable Values
 
@@ -287,9 +288,9 @@ VCPKG_DEFAULT_TRIPLET = x64-windows
 # Directories
 
 # src: could not be stat'd.
-# . (key c:/Users/ALL/PLs/C/exer, mtime 1657456597): 7 files, no impossibilities.
+# . (key c:/Users/ALL/PLs/C/exer, mtime 1657532563): 8 files, no impossibilities.
 
-# 7 files, no impossibilities in 2 directories.
+# 8 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
@@ -399,12 +400,12 @@ run: all
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 16 / storage = 101 B / avg = 6 B
-# current buf: size = 8162 B / used = 101 B / count = 16 / avg = 6 B
+# strcache buffers: 1 (0) / strings = 17 / storage = 107 B / avg = 6 B
+# current buf: size = 8162 B / used = 107 B / count = 17 / avg = 6 B
 
-# strcache performance: lookups = 34 / hit rate = 52%
+# strcache performance: lookups = 35 / hit rate = 51%
 # hash-table stats:
-# Load=16/8192=0%, Rehash=0, Collisions=0/34=0%
-# Finished Make data base on Mon Jul 11 13:53:37 2022
+# Load=17/8192=0%, Rehash=0, Collisions=0/35=0%
+# Finished Make data base on Wed Jul 13 20:26:23 2022
 
  
